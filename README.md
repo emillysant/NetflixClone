@@ -26,3 +26,6 @@ http://amused-food.surge.sh/
 <li>https://mui.com/pt/</li>
 <li>https://www.npmjs.com/package/react-elastic-carousel</li>
 </ul>
+
+### O que falta
+Aplicar a responsividade no Header
