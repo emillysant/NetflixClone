@@ -4,7 +4,7 @@ NetflixClone
 
 ## Descrição
 
-Reprodução estática da página principal da netflix utilizando JSX, React e Material-UI.
+Reprodução estática da página principal da netflix utilizando javaScript, React, styled-components e Material-UI.
 
 ### Envolvidos
 
