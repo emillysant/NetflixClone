@@ -12,7 +12,7 @@ Emilly Correa Santiago
 
 ### Link do surge
 
-http://amused-food.surge.sh/
+http://imminent-drawer.surge.sh/
 
 ### Imagens
 ![image](https://user-images.githubusercontent.com/70452464/139747307-4da465d4-ab66-46d7-a31c-77ae65abcb03.png)
@@ -26,6 +26,3 @@ http://amused-food.surge.sh/
 <li>https://mui.com/pt/</li>
 <li>https://www.npmjs.com/package/react-elastic-carousel</li>
 </ul>
-
-### O que falta
-Aplicar a responsividade no Header
