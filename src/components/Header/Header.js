@@ -11,6 +11,7 @@ import {
   ImgLogo,
   NavLink,
   ContainerRight,
+  Navibar,
 } from "./style";
 
 const Header = () => {
@@ -22,13 +23,13 @@ const Header = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
           alt="NETFLIX logo"
         />
-        <nav>
+        <Navibar>
           <NavLink href="#">Início</NavLink>
           <NavLink href="#">Séries</NavLink>
           <NavLink href="#">Filmes</NavLink>
           <NavLink href="#">Bombando</NavLink>
           <NavLink href="#">Minha lista</NavLink>
-        </nav>
+        </Navibar>
       </ContainerLeft>
       <ContainerRight>
         <IconButton>

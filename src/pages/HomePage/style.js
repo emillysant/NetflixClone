@@ -11,10 +11,15 @@ export const MainMovie = styled.div`
 export const ButtonContainer = styled.div`
   margin-top: 100px;
   display: flex;
+
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const ButtonContent = styled.div`
-  margin-right: 20px;
+  margin: 10px;
 `;
 
 export const MainMovieContent = styled.div`
@@ -26,5 +31,9 @@ export const MainMovieContent = styled.div`
 `;
 export const SinopseContainer = styled.div`
   margin-top: 10px;
-  width:50%;
+  width: 50%;
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 `;

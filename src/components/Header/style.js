@@ -12,6 +12,13 @@ export const ContainerLeft = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 20px 0px;
+
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
+  
 `;
 
 export const ImgLogo = styled.img`
@@ -36,4 +43,13 @@ export const ContainerRight = styled.div`
   flex-direction: row;
   align-items: center;
   margin: 20px 0px;
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+`;
+
+export const Navibar = styled.div`
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    display: none;
+  }
 `;
